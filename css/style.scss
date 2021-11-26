@@ -1,0 +1,20 @@
+@keyframes rotate{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg)
+    }
+}
+
+.text-cyan{
+    color: cyan;
+}
+
+.border-cyan{
+    border: 1px solid cyan;
+}
+
+.rotation{
+    animation: rotate 2s linear infinite;
+}

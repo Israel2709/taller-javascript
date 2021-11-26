@@ -1,0 +1,35 @@
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+.text-cyan {
+  color: cyan;
+}
+
+.border-cyan {
+  border: 1px solid cyan;
+}
+
+.rotation {
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
+}
+/*# sourceMappingURL=style.css.map */
